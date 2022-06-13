@@ -1,0 +1,140 @@
+
+user@Gaijin14 MINGW64 ~
+$ cd documents
+
+user@Gaijin14 MINGW64 ~/documents
+$ mkdir Leonardo2
+
+user@Gaijin14 MINGW64 ~/documents
+$ cd Leonardo2
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2
+$ mkdir 001-cli
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2
+$ cd 001-cli
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ mkdir d1 d2 d3
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ ls
+d1/  d2/  d3/
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ touch s1.txt d1/
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ cd d1
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d1
+$ touch s1.txt
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d1
+$ cd ../
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ cd d2
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ touch s2.txt
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ cd ../
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ cd d3
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d3
+$ touch s3.txt
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d3
+$ cd ../
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ cd d2
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ cp s2.txt ../d1
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ ls
+s2.txt
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ rm s2.txt
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ sl
+bash: sl: command not found
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ ls
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ cd ../
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ cd d1
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d1
+$ ls
+s1.txt  s2.txt
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d1
+$ mv s1.txt ../d2
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d1
+$ ls
+s2.txt
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d1
+$ cd ../
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ cd d2
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ lls
+bash: lls: command not found
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ ls
+s1.txt
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ cd../
+bash: cd../: No such file or directory
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ cd d3
+bash: cd: d3: No such file or directory
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ cd../
+bash: cd../: No such file or directory
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ cd d3
+bash: cd: d3: No such file or directory
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d2
+$ cd ../
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ cd d3
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d3
+$ rm s3.txt
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d3
+$ ls
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli/d3
+$ cd ../
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$ mkdir cli-activity.txt
+
+user@Gaijin14 MINGW64 ~/documents/Leonardo2/001-cli
+$

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>FORM act 1</title>
+</head>
+
+<body>
+    <form action="#">
+
+
+        <fieldset>
+            <legend><b>Your Details:</b></legend>
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Your Review:</b></legend>
+            <table>
+                <tr>
+                    <th> How did you hear about us?
+                        <select name="platform">
+                        <option value="Facebook">Facebook</option>
+                        <option value="Google" selected>Google</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="Instagram">Instagram</option>
+                     
+                        </select></th>
+                </tr>
+            </table>
+            <table>
+
+                <tr>
+                    <th> Would you visit again?</th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="radio"> Yes
+
+                        <input type="radio"> No
+
+                        <input type="radio"> Maybe
+
+                    </th>
+                </tr>
+            </table>
+            <table>
+
+                <tr>
+                    <td><b>Comments:</b> <br />
+                        <textarea rows="5" cols="50" name="Comments">
+           
+         </textarea>
+                    </td>
+                    <br>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th><input type="checkbox">Sign me up for email updates</th>
+                    <br>
+                </tr>
+                <td><input type="submit" value="Submit review" /></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

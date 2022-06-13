@@ -1,0 +1,74 @@
+body{
+    background-color: skyblue;   
+ }
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.border{
+    border: 1px solid white;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.box{
+     width: 200px;
+     height: 150px;
+     border: 1px;
+     padding: 10px;
+     margin: 10px;
+     box-sizing: border-box;
+ }
+ .box2{
+    position: relative;
+    top: 10px;
+    width: 50%;
+    height: 300px;
+ }
+
+.baguio-box{
+    width: 250px;
+    height: 120px;
+    margin-top:20px;
+    margin-right: 10px;
+
+}
+  
+.bg-pink{
+     background-color: pink;
+}
+
+.button{
+    position: relative;
+    top: 100%;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.text{
+     color: white;
+ }
+ 
+ 
+.float-left {
+     float: left;
+ }
+ 
+.float-right {
+     float: right;
+ }
+
+ .clearfix::after {
+     content: "";
+     clear: both;
+     display: inline-block;
+ }
